@@ -1045,7 +1045,8 @@ border-color: #2196F3;
                     position: absolute;
                     bottom: 20px;
                     left: 15px;
-                    transform: translateY(50%)
+                    transform: translateY(50%);
+                    fill: #212121;
                 }
         
                 .icon_2 {
