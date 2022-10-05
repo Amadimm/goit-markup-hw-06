@@ -1053,7 +1053,8 @@ border-color: #2196F3;
                     position: absolute;
                     bottom: 20px;
                     left: 14.27px;
-                    transform: translateY(50%)
+                    transform: translateY(50%);
+                    fill: #212121;
                 }
         
                 .icon-3 {
@@ -1061,6 +1062,7 @@ border-color: #2196F3;
                     bottom: 20px;
                     left: 13.5px;
                     transform: translateY(50%);
+                    fill: #212121;
                 }
 
                 .modal_box{
