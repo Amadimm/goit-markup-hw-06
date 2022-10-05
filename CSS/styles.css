@@ -888,6 +888,66 @@ border-color: #2196F3;
     
     border-radius: 50%;
 }
+
+.footer_3 {
+    display: inline-block;
+   
+    margin-left: 78px;
+}
+
+.newsletter_header {
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color:#2f303a;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 16px;
+    margin-right: 12px;
+}
+
+.newsletter_button {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    fill: #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    /* margin-left: 12px; */
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.newsletter_icon {
+    margin-left: 24px;
+    fill: #FFFFFF;
+}
 /* =======END FOOTER====== */
 
 /* ======MODAL WIDOW====== */
@@ -936,4 +996,122 @@ border-color: #2196F3;
     pointer-events: none;
  }
 
- 
+ .modal_header {
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 1.15;
+     top: 50%;
+     left: 50%;
+     letter-spacing: 0.03em;
+     text-align: center;
+     margin-top: 40px;
+     margin-left: 40px;
+     margin-right: 40px;
+     margin-bottom: 0px;
+     color: #212121;
+ }
+
+ .modal_form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 12px 40px 0 40px;
+    }
+   
+    .modal_label {
+        display: block;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: #757575;
+        margin-bottom: 4px;
+}
+    
+    .form_modal_ {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+        .modal_input {
+            width: 448px;
+            height: 40px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+            padding: 12px 12px 12px 42px;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+                .icon_1 {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 15px;
+                    transform: translateY(50%)
+                }
+        
+                .icon_2 {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 14.27px;
+                    transform: translateY(50%)
+                }
+        
+                .icon-3 {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 13.5px;
+                    transform: translateY(50%);
+                }
+
+                .modal_box{
+                  margin-top: 4px;
+                 margin-bottom: 20px;}
+      
+                 .modal_comment {
+            width: 448px;
+            height: 120px;
+            resize: none;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            font-size: 12px;
+            border-radius: 4px;
+            padding: 12px 16px 12px 16px;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+                .agreement_label {
+                    cursor: pointer;
+                    position: relative;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+
+                 .agreement {
+                     
+                   
+                     display: block;
+                     width: 16px;
+                     height: 15px;
+                     margin-right: 8px;}
+
+                   .modal_button_send {
+                       width: 200px;
+                       height: 50px;
+                       background-color: #2196f3;
+                       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                       border-radius: 4px;
+                       font-weight: 700;
+                       font-size: 16px;
+                       line-height: 1.88;
+                       letter-spacing: 0.06em;
+                       color: #ffffff;
+                       border: none;
+                       margin: 0 auto;
+                       cursor: pointer;
+                       margin-top: 30px;
+                       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                       display: flex;
+                       align-items: center;
+                       text-align: center;
+                       justify-content: center;
+                   }
