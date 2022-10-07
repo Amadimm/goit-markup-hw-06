@@ -945,13 +945,15 @@ border-color: #2196F3;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
-.newsletter_icon {
-    margin-left: 24px;
+
+
+.icon_sned {
+    padding-left: 24px;
     fill: #FFFFFF;
 }
 
-.icon_sned {
-    fill: #FFFFFF;
+.textt {
+    margin-right: 24px;
 }
 /* =======END FOOTER====== */
 
